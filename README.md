@@ -25,7 +25,8 @@ This pipeline ingests raw sales data, cleans and enriches it, builds a dimension
 
 ## 📁 Repository Structure
 
-![image](https://github.com/user-attachments/assets/7f1475f6-e04e-4c96-a403-dadf0766cfcd)
+![image](https://github.com/user-attachments/assets/66ea4f9a-fba4-4364-84b0-82a3c3fe4f56)
+
 
 
 ---
@@ -82,23 +83,4 @@ python app.py
   - Top 10 Customers by Sales  
 - View at: `http://127.0.0.1:8050/`
 
-superstore-analytics-pipeline/
-├── superstore.csv
-├── stage1_bronze.py
-├── stage2_silver.py
-├── stage3_gold.py
-├── app.py
-├── bronze_superstore.parquet
-├── silver/
-│ ├── category_metrics.parquet
-│ ├── region_metrics.parquet
-│ ├── monthly_metrics.parquet
-│ └── customer_metrics.parquet
-└── gold_superstore.db
-├── dim_category
-├── dim_region
-├── dim_date
-├── fact_category
-├── fact_region
-├── fact_monthly
-└── fact_customer
+
