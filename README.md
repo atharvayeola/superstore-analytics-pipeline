@@ -25,7 +25,7 @@ This pipeline ingests raw sales data, cleans and enriches it, builds a dimension
 
 ## 📁 Repository Structure
 
-![image](https://github.com/user-attachments/assets/66ea4f9a-fba4-4364-84b0-82a3c3fe4f56)
+![image](https://github.com/user-attachments/assets/f99cca88-bc76-458d-bb64-b39c3a4b9ab7)
 
 
 
