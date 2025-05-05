@@ -81,3 +81,24 @@ python app.py
   - Sales by Category & Region  
   - Top 10 Customers by Sales  
 - View at: `http://127.0.0.1:8050/`
+
+superstore-analytics-pipeline/
+├── superstore.csv
+├── stage1_bronze.py
+├── stage2_silver.py
+├── stage3_gold.py
+├── app.py
+├── bronze_superstore.parquet
+├── silver/
+│ ├── category_metrics.parquet
+│ ├── region_metrics.parquet
+│ ├── monthly_metrics.parquet
+│ └── customer_metrics.parquet
+└── gold_superstore.db
+├── dim_category
+├── dim_region
+├── dim_date
+├── fact_category
+├── fact_region
+├── fact_monthly
+└── fact_customer
